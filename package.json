@@ -1,0 +1,25 @@
+{
+  "name": "beestrong-f",
+  "version": "1.0.0",
+  "description": "beestrong es un proyecto familiar con el fin de brindar informacion apicola y brindar los mejores productos a base de miel y deribados",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "unit": "jest --config test/unit/jest.conf.js --coverage",
+    "test": "npm run unit",
+    "lint": "eslint --ext .js,.vue src test/unit",
+    "build": "node build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NMW90/sass-seo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NMW90/sass-seo/issues"
+  },
+  "homepage": "https://github.com/NMW90/sass-seo#readme"
+}
