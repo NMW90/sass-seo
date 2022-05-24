@@ -67,16 +67,9 @@ h2 {
   background-image: linear-gradient(to left, black, yellow);
   height: 100vh;
   width: 100%;
-}
-
-.formulario {
-  background: rgba(255, 255, 255, 0.45);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(10.5px);
-  -webkit-backdrop-filter: blur(10.5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 500px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .formBox {
@@ -86,7 +79,7 @@ h2 {
 }
 
 .galeria {
-  height: 800px;
+  height: 100vh;
   width: 100%;
   background-color: rgb(0, 0, 0);
   display: grid;
@@ -161,23 +154,6 @@ h2 {
   background-image: url(./img/marcoCria.jpeg);
   background-position: center;
   background-size: center;
-}
-
-.pie {
-  display: flex;
-  justify-content: center;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 244, 28);
-  font-size: 25px;
-  width: 100%;
-  height: 80px;
-  padding-top: 10px;
-}
-
-.right {
-  text-align: right;
-  padding-top: 10px;
-  margin-left: 20px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
@@ -283,6 +259,42 @@ h2 {
     grid-column: 3/5;
     grid-row: 3/4;
   }
+}
+.pie {
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 244, 28);
+  font-size: 20px;
+  width: 100%;
+  height: 80px;
+  padding-top: 10px;
+}
+
+.ppie {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.right {
+  text-align: right;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.productosH {
+  font-size: 30px;
+  text-align: center;
+  color: #000;
+  background-color: rgb(255, 244, 28);
+}
+
+.textoProductos {
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: orange;
+  color: #000;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
